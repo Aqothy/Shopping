@@ -30,7 +30,7 @@ export function CartItem({ id, quantity }: CartItemProps) {
           onClick={() => {
             removeFromCart(item.id);
           }}
-          className="bg-red-500 px-2 rounded-lg ml-[0.5rem]"
+          className="bg-red-500 px-2 rounded-xl ml-[0.5rem]"
         >
           x
         </button>
